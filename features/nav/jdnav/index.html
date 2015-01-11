@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<style>
+/* Demo Syles */
+body {
+  margin: 0;
+}
+.app-nav .app-link {
+width: 25%;
+float: left;
+height: 50px;
+font-size: 12px;
+text-decoration: none;
+color: #7f7f7f;
+text-align: center;
+display: block;
+position: relative;
+}
+.shopping-cart:after, .recharge:after, .lottery:after, .my-jd:after {
+content: "";
+display: block;
+width: 1px;
+height: 28px;
+background: #dadada;
+position: absolute;
+right: -1px;
+top: 12px;
+}
+.shopping-cart:before, .recharge:before, .lottery:before, .my-jd:before {
+margin: 0 auto;
+background: url(img/home-icons.png) no-repeat;
+background-size: 100%;
+width: 28px;
+height: 32px;
+display: block;
+content: "";
+}
+/* cart bg position */
+.shopping-cart:before {
+background-position: 0 -81px;
+}
+/* recharge */
+.recharge:before {
+background-position: 0 -108px;
+}
+.lottery:before {
+background-position: 0 -137px;
+}
+.my-jd:before {
+background-position: 0 -165px;
+}
+</style>
+
+
+</head>
+<body>
+  <nav class="app-nav">
+        <a href="http://p.m.jd.com/cart/cart.action?sid=d4a6b4a5bb2511f3a3c88c47b65ffa45" class="app-link shopping-cart">购物车</a>
+        <a href="http://vm.m.jd.com/chongzhi/index.action?v=t&amp;sid=d4a6b4a5bb2511f3a3c88c47b65ffa45" class="app-link recharge">充值</a>
+        <a href="http://caipiao.m.jd.com?sid=d4a6b4a5bb2511f3a3c88c47b65ffa45" class="app-link lottery">彩票</a>
+        <a href="https://passport.m.jd.com/user/home.action?sid=d4a6b4a5bb2511f3a3c88c47b65ffa45" class="app-link my-jd">我的</a>
+    </nav>
+</body>
+</html>
