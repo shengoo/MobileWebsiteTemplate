@@ -1,0 +1,19 @@
+{
+  "name": "MobileWebsiteTemplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/shengoo/MobileWebsiteTemplate",
+  "authors": [
+    "shengoo <shengoo@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swiper": "~2.7.5"
+  }
+}
