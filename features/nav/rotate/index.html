@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <style>
+body {
+  margin: 0;
+}
+ul, ol {
+list-style: none;
+}
+a {
+color: #000;
+text-decoration: none;
+}
+.tbl-type {
+  padding: 0;
+display: table;
+width: 100%;
+}
+.tbl-cell {
+display: table-cell;
+/* vertical-align: top; */
+/* text-align: center; */
+}
+.category .tbl-cell {
+/* width: 20%; */
+/* vertical-align: top; */
+}
+.category a {
+display: block;
+text-align: center;
+}
+.route1, .route2, .route3, .route4, .route5 {
+-webkit-transform: rotateY(90deg);
+-moz-transform: rotateY(90deg);
+-o-transform: rotateY(90deg);
+-ms-transform: rotateY(90deg);
+transform: rotateY(90deg);
+}
+.route1 {
+-webkit-transition: -webkit-transform .3s ease-out 0s;
+-moz-transition: -moz-transform .3s ease-out 0s;
+-o-transition: -o-transform .3s ease-out 0s;
+-ms-transition: -ms-transform .3s ease-out 0s;
+transition: transform .3s ease-out 0s;
+}
+.route2 {
+-webkit-transition: -webkit-transform .3s ease-out .2s;
+-moz-transition: -moz-transform .3s ease-out .2s;
+-o-transition: -o-transform .3s ease-out .2s;
+-ms-transition: -ms-transform .3s ease-out .2s;
+transition: transform .3s ease-out .2s;
+}
+.route3 {
+-webkit-transition: -webkit-transform .3s ease-out .4s;
+-moz-transition: -moz-transform .3s ease-out .4s;
+-o-transition: -o-transform .3s ease-out .4s;
+-ms-transition: -ms-transform .3s ease-out .4s;
+transition: transform .3s ease-out .4s;
+}
+.route4 {
+-webkit-transform: rotateY(90deg);
+-webkit-transition: -webkit-transform .3s ease-out .6s;
+-moz-transition: -moz-transform .3s ease-out .6s;
+-o-transition: -o-transform .3s ease-out .6s;
+-ms-transition: -ms-transform .3s ease-out .6s;
+transition: transform .3s ease-out .6s;
+}
+.route5 {
+-webkit-transform: rotateY(90deg);
+-webkit-transition: -webkit-transform .3s ease-out .8s;
+-moz-transition: -moz-transform .3s ease-out .8s;
+-o-transition: -o-transform .3s ease-out .8s;
+-ms-transition: -ms-transform .3s ease-out .8s;
+transition: transform .3s ease-out .8s;
+}
+.route {
+-webkit-transform: rotateY(0deg);
+-moz-transform: rotateY(0deg);
+-o-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+transform: rotateY(0deg);
+}
+.menu1-icon, .menu2-icon, .menu3-icon, .menu4-icon, .menu5-icon, .menu6-icon {
+display: inline-block;
+width: 2.64em;
+height: 2.64em;
+line-height: 3em;
+background: #e85a5d;
+border-radius: 2.64em;
+text-align: center;
+vertical-align: middle;
+}
+
+.category .cate-name {
+display: block;
+/* font-size: .85em; */
+/* color: #666; */
+/* text-align: center; */
+margin-top: .25em;
+}
+  </style>
+</head>
+<body>
+<div class="category" style="padding-bottom:20px">
+      <ul class="cate-menu tbl-type" id="categoryMenu">
+        <li class="tbl-cell route1 ">
+          <a href="javascript:void(0)" class="menu1" >
+              <span class="menu1-icon"><span></span></span>
+                <span class="cate-name">menu1</span>
+            </a>
+        </li>
+        <li class="tbl-cell route2 ">
+          <a href="javascript:void(0)" id="html5_cart" class="menu2" >
+              <span class="menu2-icon"><span></span></span>
+                <span class="cate-name">menu2</span>
+            </a>
+        </li>
+        <li class="tbl-cell route3 ">
+          <a href="javascript:void(0)" class="menu3" >
+              <span class="menu3-icon"><span></span></span>
+                <span class="cate-name">menu3</span>
+            </a>
+        </li>
+        <li class="tbl-cell route4 ">
+                <a href="javascript:void(0)" class="menu4" >
+                  <span class="menu4-icon"><span></span></span>
+                <span class="cate-name">menu4</span>
+            </a>
+        </li>
+        <li class="tbl-cell route5 ">
+          <a href="javascript:void(0)" class="menu6" >
+              <span class="menu6-icon"><span></span></span>
+                <span class="cate-name">menu5</span>
+            </a>
+        </li>
+        </ul>
+    </div>
+  <script src="../../../bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript">
+    $(".category li").addClass("route")
+    </script>
+</body>
+</html>
