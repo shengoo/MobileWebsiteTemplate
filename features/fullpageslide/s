@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="pages.js"></script>
+</head>
+<body>
+  <div class="pages" id="pages">
+
+
+    <section class="page page-cover" style="-webkit-transform: translate3d(0px, -667px, 0px);">
+      <div class="invi_title">
+          <h4>王刚&nbsp;&amp;&nbsp;李小玉</h4>
+      </div>
+      <div class="rotating_flower2"></div>
+      <div class="cover" style="background: url(/uploadimg/4922/ei/cef9da69feb842f9a2f8121eb8c542f0.jpg) no-repeat 50% 50%;background-size: cover;"></div>
+      <div class="blue_light"></div>
+      <div class="wedding_day"></div>
+      <div class="drop-up"></div>
+      <div class="drop_leaf"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf2"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf3"><div class="rotate_leaf"></div></div>
+    </section>
+
+    <section class="page page-invite play" style="-webkit-transform: translate3d(0px, 0px, 0px);">
+      <div class="invite_head"></div>
+      <div class="invite_flw"></div>
+      <div class="hrz_bar"></div>
+      <div class="hrz_circle"></div>
+      <div class="invite_text">
+        <p>王先生 &amp; 李小姐</p><p>谨定于</p><p>二〇一四 年 十 月 一 日 18:00</p><p>于 广州市XX区XX大酒店</p><p>举行结婚典礼</p><p>诚挚邀请您出席</p><p>见证和分享这份喜悦</p><p>恭候阁下光临！</p><p>           </p>
+      </div>
+      <div class="story_btn">
+        <button id="story_btn" data-toggle="modal" data-target="#storyModal">我们的故事</button>
+      </div>
+      <div class="story"></div>
+      <div id="share" class="share_btn" onclick="shareShow();">分享</div>
+      <div class="drop-up"></div>
+      <div class="drop_leaf"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf2"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf3"><div class="rotate_leaf"></div></div>
+    </section>
+
+    
+    <section class="page page-album">
+      <div class="album_flw"></div>
+      <div class="album_title"></div>
+      <div class="slider">
+        <div id="slider_div" class="swipe" style="visibility: visible;">
+       <div class="swipe-wrap" style="width: 1200px;">
+        
+            <div data-index="0" style="width: 300px; left: 0px; transition: 300ms; -webkit-transition: 300ms; -webkit-transform: translate(0px, 0px) translateZ(0px);"><b><div class="slide_img" style="background-image:url(/uploadimg/4922/ei/8d48c07fed9a4805afddeec4c8ad502f.jpg);"></div></b></div>
+            
+            <div data-index="1" style="width: 300px; left: -300px; transition: 0ms; -webkit-transition: 0ms; -webkit-transform: translate(300px, 0px) translateZ(0px);"><b><div class="slide_img" style="background-image:url(/uploadimg/4922/ei/8f021407c76b4db49cfde6c6b7276ab8.jpg);"></div></b></div>
+            
+      <div data-index="2" style="width: 300px; left: -600px; transition: 300ms; -webkit-transition: 300ms; -webkit-transform: translate(-300px, 0px) translateZ(0px);"><b><div class="slide_img" style="background-image:url(/uploadimg/4922/ei/8d48c07fed9a4805afddeec4c8ad502f.jpg);"></div></b></div><div data-index="3" style="width: 300px; left: -900px; transition: 300ms; -webkit-transition: 300ms; -webkit-transform: translate(-300px, 0px) translateZ(0px);"><b><div class="slide_img" style="background-image:url(/uploadimg/4922/ei/8f021407c76b4db49cfde6c6b7276ab8.jpg);"></div></b></div></div>
+    <div class="nav" id="nav_slider">
+       
+        <li class="nav_circle_on"></li>
+        
+        <li class="nav_circle"></li>
+      
+      </div>
+    </div>
+      </div>
+      <div id="share" class="share_btn" onclick="shareShow();">分享</div>
+      <div class="drop-up"></div>
+      <div class="drop_leaf"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf2"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf3"><div class="rotate_leaf"></div></div>
+    </section>
+    
+
+    <section class="page page-info">
+      <div class="info_title"></div>
+      <div class="info_cover" style="background: url(/uploadimg/4922/ei/cef9da69feb842f9a2f8121eb8c542f0.jpg) no-repeat 50% 50%;background-size: cover;"></div>
+      <div class="info">
+        <div class="time_icon"></div>
+        <div class="date">
+           <h4>2015-02-15</h4>
+           </div>
+        <div class="address_icon"></div>
+        <div class="address">
+           <h4>地址：万豪酒店&nbsp;&nbsp;沈阳市沈河区青年大街296号</h4>
+           </div>
+        </div>
+      <div class="map">
+            <a href="/einvitation/pubjsp/mapAPI.jsp?lat=23.099785&amp;lng=113.321445&amp;name=沈阳市沈河区青年大街296号">
+            <img src="http://restapi.amap.com/v3/staticmap?location=113.321445,23.099785&amp;zoom=13&amp;size=440*280&amp;markers=mid,,A:113.321445,23.099785&amp;key=cd930ac56da0ced1c799f424ee1ee6ef">
+            </a>
+        </div>
+        
+            <button class="flow_btn" data-toggle="modal" data-target="#flowModal">婚礼流程</button>
+        
+      <div class="blur"></div>
+      <div id="share" class="share_btn" onclick="shareShow();">分享</div>
+      <div class="drop-up"></div>
+      <div class="drop_leaf"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf2"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf3"><div class="rotate_leaf"></div></div>
+    </section>
+
+    <section class="page page-reply">
+      <div class="reply_title"></div>
+      <div class="reply_flw"></div>
+      <div class="reply_form">
+          <div class="control-group">
+          <label id="label_name">姓名</label>
+          <input id="reply_name" type="text">
+          </div>
+          <div class="control-group">
+          <label id="label_msg">祝福</label>
+          <textarea id="reply_message"></textarea>
+          </div>
+          <br>
+            <div class="opts">
+              <div class="opt_attend  opt_active">出席</div>
+              <div class="opt_attend">待定</div>
+              <div class="opt_attend">有事</div>
+            </div>
+          <select id="reply_ifattend" style="display:none">
+            <option value="A">出席</option>
+            <option value="B">待定</option>
+            <option value="C">有事</option>
+          </select>
+          <br><br>
+          <button id="reply_submitbtn"></button>
+            <button id="reply_check" data-toggle="modal" data-target="#msgModal"></button>
+        </div>
+      <div id="share" class="share_btn" onclick="shareShow();">分享</div>
+      <div class="drop-up"></div>
+      <div class="drop_leaf"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf2"><div class="rotate_leaf"></div></div>
+      <div class="drop_leaf3"><div class="rotate_leaf"></div></div>
+    </section>
+
+    <section class="page page-ad" id="end-page">
+        <div class="slider">
+         <div id="ad_slider_div" class="swipe" style="visibility: visible;">
+      <div class="swipe-wrap" style="width: 0px;">
+                <div data-index="0" style="width: 0px; left: 0px; transition: 0ms; -webkit-transition: 0ms; -webkit-transform: translate(0px, 0px) translateZ(0px);"><b><div class="ad_slide_img" style="background-image:url(/einvitation/img/ad/ad_2.min.jpg);">
+                        <a class="button-primary ad_button" id="ios_btn" href="javascript:ios_btn();">下载iOS客户端</a>
+                        <a class="button-primary ad_button" id="adr_btn" style="left: 162px;" href="javascript:android_btn();">下载安卓客户端</a>
+                    </div></b></div>
+                <div data-index="1" style="width: 0px; left: 0px; transition: 0ms; -webkit-transition: 0ms; -webkit-transform: translate(0px, 0px) translateZ(0px);"><b><div class="ad_slide_img" style="background-image:url(/einvitation/img/ad/ad_1.min.jpg);">
+                        <div class="button-primary ad_button" id="weixin_btn" onclick="javascript:weixin_btn();">关注淘喜猫微信</div>
+                        <a class="button-primary ad_button" href="javascript:web_btn();" id="web_btn">淘喜猫官网</a>
+                    </div></b></div>
+                
+          <div data-index="2" style="width: 0px; left: 0px; transition: 0ms; -webkit-transition: 0ms; -webkit-transform: translate(0px, 0px) translateZ(0px);"><b><div class="ad_slide_img" style="background-image:url(/einvitation/img/ad/ad_2.min.jpg);">
+                        <a class="button-primary ad_button" id="ios_btn" href="javascript:ios_btn();">下载iOS客户端</a>
+                        <a class="button-primary ad_button" id="adr_btn" style="left: 162px;" href="javascript:android_btn();">下载安卓客户端</a>
+                    </div></b></div><div data-index="3" style="width: 0px; left: 0px; transition: 0ms; -webkit-transition: 0ms; -webkit-transform: translate(0px, 0px) translateZ(0px);"><b><div class="ad_slide_img" style="background-image:url(/einvitation/img/ad/ad_1.min.jpg);">
+                        <div class="button-primary ad_button" id="weixin_btn" onclick="javascript:weixin_btn();">关注淘喜猫微信</div>
+                        <a class="button-primary ad_button" href="javascript:web_btn();" id="web_btn">淘喜猫官网</a>
+                    </div></b></div></div>
+    <div class="nav" id="ad_slider">
+        <li class="nav_circle_on"></li>
+        <li class="nav_circle"></li>
+            
+         </div>
+        </div>
+      </div>
+      <div id="share" class="share_btn" onclick="shareShow();">分享</div>
+    </section>
+
+    <div class="modal fade" id="flowModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" data-dismiss="modal">
+            <h6 class="modal-title" id="myModalLabel">婚礼流程</h6>
+          </div>
+          <div class="modal-body" id="flow_content" style="text-align: left">
+              <br>
+              <p>14:30 婚车到达新郎家</p><p>15:00 新郎、伴郎坐彩车</p><p>15:30 车队到达新娘家</p><p>16:00 车队从新娘家出发</p><p>16:30 车队到达酒店</p><p>17:00 新郎新娘到门口迎宾</p><p>18:00 婚宴开始</p><p>20:00 婚宴结束</p><p>           </p>
+              <br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="close" data-dismiss="modal">返回喜帖</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="storyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" data-dismiss="modal">
+            <h6 class="modal-title" id="myModalLabel">我们的故事</h6>
+          </div>
+          <div class="modal-body" id="story_content" style="text-align:center">
+              <br>
+              <p>我们结婚吧</p><p>一起疯 一起笑 一起闹</p><p>牵着你的手</p><p>像朋友 像恋人 像情人</p><p>是那么自然</p><p>我的心 我的情 我的泪</p><p>就从今天起</p><p>带上过去和未来就现在</p><p>要与你交换</p><p>放掉那些喧闹的浮夸</p><p>从此就陪我浪迹天涯</p><p>把你的幸福交给我吧</p><p>现在就要听你的回答</p><p>你愿意吗</p><p>我们结婚吧</p><p>           </p>
+              <br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="close" data-dismiss="modal">返回喜帖</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="msgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" data-dismiss="modal">
+            <h6 class="modal-title" id="myModalLabel">查看祝福</h6>
+          </div>
+          <div class="pos-page modal-body" id="reply_list" style="text-align:center">
+            
+              <div class="reply_item">
+                <div class="replyAttend"></div>
+                    <div class="replyName"><strong>ppp</strong></div>
+                <div class="replyMsg">啪啪啪</div>
+              </div>
+            
+              <div class="reply_item">
+                <div class="replyAttend"></div>
+                    <div class="replyName"><strong>发发</strong></div>
+                <div class="replyMsg">发发发</div>
+              </div>
+            
+              <div class="reply_item">
+                <div class="replyAttend"></div>
+                    <div class="replyName"><strong>发发</strong></div>
+                <div class="replyMsg">发发发</div>
+              </div>
+            
+              <div class="reply_item">
+                <div class="replyAttend"></div>
+                    <div class="replyName"><strong>小王</strong></div>
+                <div class="replyMsg">祝小王</div>
+              </div>
+            
+              <div class="reply_item">
+                <div class="replyAttend"></div>
+                    <div class="replyName"><strong>小王</strong></div>
+                <div class="replyMsg">祝贺</div>
+              </div>
+            
+              <div class="reply_item">
+                <div class="replyAttend"></div>
+                    <div class="replyName"><strong>王叶</strong></div>
+                <div class="replyMsg">百年好合</div>
+              </div>
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="close" data-dismiss="modal">返回喜帖</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="share d-n" id="downloadTips">
+    <div class="fish"></div>
+    <div class="text" id="appText">点击右上方按钮，选择"在safari中打开"或"在浏览器中打开" 重新点击下载按钮下载APP</div>
+    <div class="cat"></div>
+    <div class="button-primary" onclick="downloadHide();">返回喜帖</div>
+</div>
+
+
+<div class="share d-n" id="shareTips">
+    <div class="fish"></div>
+    <div class="text">点击右上方分享按钮，即可分享至好友和朋友圈</div>
+    <div class="cat"></div>
+    <div class="button-primary" id="shareHide" onclick="shareHide();">返回喜帖</div>
+</div>
+
+<div class="share d-n" id="followTips">
+    <div class="fish"></div>
+    <div class="text">关注淘喜猫微信号！</div>
+    <div class="follow_step1">1.点击右上角按钮<img src="../theme/default/images/follow_btn1.png"></div>
+    <div class="follow_step2">2.点击菜单里的<img src="../theme/default/images/follow_btn2.png">查看账号</div>
+    <div class="follow_step3">3.点击<img src="../theme/default/images/follow_btn3.png">大功告成！</div>
+    <div class="cat"></div>
+    <div class="button-primary" id="followHide" onclick="followHide();">返回喜帖</div>
+</div>
+
+
+    <div id="music">
+        <audio id="music-src" src="http://media.xitaoinfo.com/ei_marry_you.mp3" autoplay="autoplay" loop="loop"></audio>
+        <div id="music-control" class="music-icon"></div>
+    </div>
+
+<script type="text/javascript">
+  new PageSlide(document.querySelector('.pages'), 'Y');
+</script>
+</div>
+</body>
+</html>
