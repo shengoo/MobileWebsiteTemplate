@@ -1,6 +1,6 @@
 # MobileWebsiteTemplate
 
-some template
+some template.
 
 take if you like.
 
